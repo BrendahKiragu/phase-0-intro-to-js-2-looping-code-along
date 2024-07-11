@@ -17,22 +17,10 @@ function writeCards (names){
   }
   return cardsMessage; 
 }
+//console.log(writeCards(names));
 
-console.log(writeCards(names));
 
 //# Test 2
-
-/*const numbers = [0, 1, 2, 3, 4]
-
-function countDown (numbers) {
-  let i = numbers.length -1;
-  while ( i >=0){
-    console.log(numbers[i]);
-    i--;
-  }
-return i;
-}*/
-
 function countDown(){
   let i = 10;
   while (i >= 0){
@@ -40,5 +28,4 @@ function countDown(){
     i--
   }
 }
-
-console.log(countDown())
+countDown()
